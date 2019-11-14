@@ -9,4 +9,8 @@ gerbv -x ps Gerber_drill.GTL
 GS_OPTIONS=-dNOSAFER pstoedit -f dxf output.ps Gerber_drill.GTL.dxf
 ```
 
+# Files
+- `Gerber_drill.GTL.dxf` original top copper from Gerber converted to DXF as-is
+- `baseplate.dxf` the baseplate
+
 ![licence logo](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
