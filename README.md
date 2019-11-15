@@ -11,6 +11,14 @@ GS_OPTIONS=-dNOSAFER pstoedit -f dxf output.ps Gerber_drill.GTL.dxf
 
 # Files
 - `Gerber_drill.GTL.dxf` original top copper from Gerber converted to DXF as-is
-- `baseplate.dxf` the baseplate
+- `baseplate-master.dxf` master design of the baseplate, that includes
+    construction lines, etc
+- `baseplate-readytocut.dxf` a "ready to cut" design that is generated from the
+    master
+
+# TODO
+  - change sizes of holes to 2.1mm as the existing holes are from the copper
+      layer so they include the keepout distance.
+  - add extra switch holder parts
 
 ![licence logo](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
